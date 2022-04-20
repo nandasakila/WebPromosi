@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: wheat;
+}
+
+header{
+    background-color:rgb(68, 66, 66);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.Logo{
+    color:tomato;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.Logo:hover{
+    color:white;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list li{
+    display: flex;
+}
+
+.list li a{
+    color:white;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.list li a:hover{
+    color: rgb(10, 10, 10);
+}
+.front{
+    background-color:rgb(68, 66, 66);
+    background-size:cover;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fronttulisan{
+    color: wheat;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:sans-serif;
+    transition: 0.5s;
+}
+
+
+.fronttulisan:hover{
+    transform: scale(1.05);
+}
+.kotak{
+    margin: 50px;
+}

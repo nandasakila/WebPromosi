@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: rgb(68, 66, 66);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Logo{
+    display: flex;
+    margin-left: 4px;
+}
+
+.Logo:hover{
+    color: #D5D5D5;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list li{
+    display: flex;
+}
+
+.list li a{
+    color:white;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.list li a:hover{
+    
+    color: rgb(10, 10, 10);
+}
+
+.section{
+    padding: 50px 0;
+}
+
+.section h6{
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.info{
+    background-color: white;
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px
+}
+
+.info h6{
+    font-size: 30px;
+}
+
+.info p{
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.section{
+    padding: 50px 0;
+}
+
+.footer {
+  text-align: center;
+  /* padding-bottom: 10rem; */
+}
+
+.footer .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.footer .icons-container .icons {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.footer .icons-container .icons i {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background: var(--peru);
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  line-height: 5.8rem;
+  font-size: 2rem;
+}
+
+.footer .icons-container .icons h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.footer .icons-container .icons p {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  color: var(--light-black);
+  text-transform: none;
+}
+
+.footer .share {
+  margin: 2rem 0;
+}
+
+.footer .share a {
+  height: 6rem;
+  width: 6rem;
+  line-height: 5.8rem;
+  color: var(--white);
+  background: var(--black);
+  margin: 0 0.3rem;
+  font-size: 2.5rem;
+}
+
+.footer .share a:hover {
+  background: var(--peru);
+}
+
+.footer .credit {
+  padding-top: 2.5rem;
+  margin-top: 3rem;
+  border-top: var(--border);
+  font-size: 2rem;
+  color: var(--light-black);
+}
+
+.footer .credit span {
+  color: var(--peru);
+}

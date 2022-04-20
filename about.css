@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:white;
+}
+
+header{
+    background-color:rgb(68, 66, 66);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.home .home-slider .slide {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
+
+.home .home-slider .slide .content {
+    flex: 1.1.45rem;
+}
+
+.home .home-slider .slide .image {
+    flex: 1.1.45rem;
+}
+
+.home .home-slider .slide .image img {
+    width: 100%;
+}
+
+.home .home-slider .slide .content span {
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+.home .home-slider .slide .content p {
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.Logo{
+    display: flex;
+    margin-left: 4px;
+}
+
+
+.Logo:hover{
+    color:white;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list li{
+    display: flex;
+}
+
+.list li a{
+    color:white;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.list li a:hover{
+    color: rgb(10, 10, 10);
+}
+#gambar{
+    overflow: hidden;
+}
+
+#gambar figure img{
+    width: 20%;
+    float:left
+}
+
+#gambar figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 40s gambar infinite;
+}
+
+.section{
+    padding: 50px 0;
+}
+
+.section{
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.galeri h5{
+    font-size: 30px;
+}
+
+.galeri p{
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.galeri img{
+    width: 400px;
+    height: 200px;
+}
+
+.section{
+    padding: 50px 0;
+}
+
+.front{
+    background-color:rgb(68, 66, 66);
+    background-size:cover;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fronttulisan{
+    color: wheat;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:sans-serif;
+    transition: 0.5s;
+}
+
+
+.fronttulisan:hover{
+    transform: scale(1.05);
+}
